@@ -1,0 +1,41 @@
+.square {
+  stroke: green;
+  stroke-width: 5;
+  fill: red;
+}
+
+.rectangle {
+  fill: yellow;
+  stroke: blue;
+  stroke-width: 5;
+}
+
+.circle {
+  fill: aqua;
+  stroke: black;
+  stroke-width: 5;
+}
+
+.ellipse {
+  fill: orange;
+  stroke: gray;
+  stroke-width: 5;
+}
+
+.svg {
+  display: block;
+}
+
+.figure {
+  fill: indigo;
+  stroke: brown;
+  stroke-width: 5;
+  transition: 1s;
+}
+
+.figure:hover {
+  fill: cadetblue;
+  stroke: coral;
+  width: 120px;
+  height: 120px;
+}
